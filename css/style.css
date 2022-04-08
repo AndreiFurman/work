@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background: #070a1b;
+  background: linear-gradient(180deg, #070a1b 0%, #2a3170 100%);
   font-size: 16px;
   line-height: 120%;
   font-weight: 400;
@@ -42,6 +42,7 @@ ul {
 }
 
 .header {
+  background: #070a1b;
 }
 
 .header__top {
@@ -49,6 +50,9 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+}
+.header__logo {
+  margin-left: 115px;
 }
 .list {
   display: flex;
@@ -104,6 +108,9 @@ ul {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
 }
+.footer {
+  background: #070a1b;
+}
 .footer__inner {
   display: flex;
   justify-content: space-between;
@@ -129,4 +136,98 @@ ul {
   font-size: 24px;
   margin-bottom: 25px;
   line-height: 120%;
+}
+.premier {
+  margin-bottom: 150px;
+}
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+.premier__text {
+  margin-bottom: 20px;
+}
+.premier__img {
+  margin-bottom: 21px;
+}
+.premier__btn {
+  font-family: "Corpoate-A-Bold";
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: #f402a2;
+  text-align: center;
+  padding: 14px;
+  border: 1px solid #f402a2;
+  transition: all 3s;
+}
+.premier__btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
+}
+.video {
+  margin-bottom: 150px;
+}
+.video__img {
+  margin-bottom: 25px;
+}
+.video__btn {
+  font-family: "Corpoate-A-Bold";
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 120%;
+  color: #f402a2;
+  padding: 14px;
+  border: 1px solid #f402a2;
+  transition: all 3s;
+}
+.video__btn span {
+  padding-top: 2px;
+}
+.video__btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
+}
+.video__btn path {
+  transition: all 3s;
+}
+.video__btn:hover path {
+  fill: #53a1cb;
+}
+.desing__interior {
+  display: grid;
+  grid-template-columns: 255px 255px auto 330px;
+  grid-template-rows: auto auto;
+  gap: 14px 44px;
+  margin-bottom: 100px;
+}
+.desing__cell-one {
+  grid-row: 1/3;
+}
+.desing__cell-two {
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+.desing__cell-three {
+  grid-column-end: -1;
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+.desing__cell-text {
+  margin-bottom: 15px;
+}
+.desing-slider__item {
+  margin: 0 30px;
+}
+.slick-track {
+  margin-left: -30px;
 }
