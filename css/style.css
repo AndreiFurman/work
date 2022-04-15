@@ -156,6 +156,8 @@ ul {
 .premier__btn {
   font-family: "Corpoate-A-Bold";
   text-transform: uppercase;
+  cursor: pointer;
+  background: transparent;
   display: block;
   width: 100%;
   font-size: 18px;
@@ -164,7 +166,7 @@ ul {
   text-align: center;
   padding: 14px;
   border: 1px solid #f402a2;
-  transition: all 3s;
+  transition: all 0.3s;
 }
 .premier__btn:hover {
   color: #53a1cb;
@@ -189,7 +191,9 @@ ul {
   color: #f402a2;
   padding: 14px;
   border: 1px solid #f402a2;
-  transition: all 3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: transparent;
 }
 .video__btn span {
   padding-top: 2px;
@@ -199,7 +203,7 @@ ul {
   border: 1px solid #53a1cb;
 }
 .video__btn path {
-  transition: all 3s;
+  transition: all 0.3s;
 }
 .video__btn:hover path {
   fill: #53a1cb;
